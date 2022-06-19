@@ -19,6 +19,7 @@ h1,h2,h3{
 	font-family: arvo, serif;
 }
 
+
 p{
 	font-family: 'Play', sans-serif;
 	font-size: 1.6rem;
@@ -87,6 +88,10 @@ body{
 
 
 
+.titulos{
+ color: white;
+ font-size: 2rem;
+}
 
 
 
@@ -110,8 +115,91 @@ color: green;
 }
 
 
+
+#ggproduc{
+	display: grid;
+	grid-template-areas: 	"fila1	fila2	fila3"
+							"fila4	fila5	fila6"
+							"fila7	fila8	fila9";
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.fila1{
+	grid-area: fila1;
+}
+
+.fila2{
+	grid-area: fila2;
+}
+
+.fila3{
+	grid-area: fila3;
+}
+
+.fila4{
+	grid-area: fila4;
+}
+
+.fila5{
+	grid-area: fila5;
+}
+
+.fila6{
+	grid-area: fila6;
+}
+
+.fila7{
+	grid-area: fila7;
+}
+
+.fila8{
+	grid-area: fila8;
+}
+
+.fila9{
+	grid-area: fila9;
+}
+
+
+
+.prueba{
+	margin: 0;
+	padding: 0 15rem;
+}
+
+
+
+#gg{
+	display: grid;
+	grid-template-areas: 	"columna1 columna2"
+							"columna3 columna4";
+	grid-template-columns: 1fr 1fr;
+}
+
+.columna1{
+	grid-area: columna1;
+}
+
+.columna2{
+	grid-area: columna2;
+}
+
+.columna3{
+	grid-area: columna3;
+}
+
+.columna4{
+	grid-area: columna4;
+}
+
+
+
+
+
+
 .bg-light{
-	background-color: rgba(36, 162, 185, 0.7);
+	color: white;
 }
 
 
@@ -147,12 +235,24 @@ color: green;
 /*box-sizing*/
 
 .productos__articulo{
-	width: 45%;
+	width: 90%;
 	height: auto;
 	margin: 50px auto;
 	border: solid 5px black;
 	overflow: hidden;
 	box-sizing: border-box;
+	background-color: rgba(36, 162, 185, 0.7);
+}
+.productos__articulo2{
+	width: 90%;
+	height: auto ;
+	margin: 50px auto;
+	border: solid 5px black;
+	overflow: hidden;
+	box-sizing: border-box;
+	background-color: rgba(36, 162, 185, 0.7);
+}
+
 	
 
 }
@@ -183,13 +283,16 @@ color: green;
 
 .centrado{
 	margin: 0;
-	padding: 0 20rem;
+	padding: 0 5rem;
 }
 
-
+.centrado1{
+	margin: 0;
+	padding: 0 12rem;
+}
 .centrado2{
 	margin: 0;
-	padding: 0 10rem;
+	padding: 0 17rem;
 } 
 
 
