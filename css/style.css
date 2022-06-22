@@ -1,15 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap');
 
-/* selector universal
-*{
-	padding: 0;
-	max-resolution: 0;
-}*/
-
 *{ 
 margin: 0;
 padding: 0;
 }
+
+				/*--------------ESTILOS GENERALES--------------------*/ 
 
 html{
 	font-size: 62.5%;
@@ -87,24 +83,24 @@ body{
 }
 
 
+.encabezado__box--white{
+	text-align: center;
+	background-color: white;
+    /* padding */
+    padding: 5px 0;
+
+}
+
 
 .titulos{
  color: white;
  font-size: 2rem;
 }
 
-
-
-/* selector de clase */
-
-.text-green{
-color: green;
-}
-
-
 .text-center{
 	text-align: center;
 }
+
 
 .text-right{
 	text-align: right;
@@ -115,14 +111,188 @@ color: green;
 }
 
 
+.productos__articulo{
+	
+	width: 90%;
+	height: auto;
+	margin: 50px auto;
+	border: solid 5px black;
+	overflow: hidden;
+	box-sizing: border-box;
+	background-color: rgba(36, 162, 185, 0.7);
+}
+.productos__articulo2{
+	width: 90%;
+	height: auto ;
+	margin: 50px auto;
+	border: solid 5px black;
+	overflow: hidden;
+	box-sizing: border-box;
+	background-color: rgba(36, 162, 185, 0.7);
+  }
 
-#ggproduc{
+
+
+.centrado{
+	margin: 0;
+	padding: 0 5rem;
+}
+
+.centrado1{
+	margin: 0;
+	padding: 0 12rem;
+}
+.centrado2{
+	margin: 0;
+	padding: 0 17rem;
+} 
+
+
+.centrado3{
+	margin: 0;
+	padding: 0 30rem;
+	
+}
+
+
+		/*------------------------------INDEX--------------------------------*/
+
+
+.text-green{
+color: green;
+}
+
+.mainIndex{
+	display: grid;
+	grid-template-areas: 	"titulo titulo "
+							"columna1 columna2"
+							"columna3 columna4";
+	grid-template-columns: 1fr 1fr;
+}
+
+.tituloPrincipal{
+	grid-area: titulo;
+	text-align: center;
+}
+.columna1{
+	grid-area: columna1;
+}
+
+.columna2{
+	grid-area: columna2;
+}
+
+.columna3{
+	grid-area: columna3;
+}
+
+.columna4{
+	grid-area: columna4;
+}
+
+.columna1{
+	display: grid;
+	grid-template-areas: 
+						 "text-left1 text-left1"
+						 "imagenes1 imagenes1 imagenes1";
+}
+
+.text-left1{
+	grid-area: text-left1;
+	
+}
+.imagenes1{
+	grid-area: imagenes1;
+	text-align: center;
+}
+
+.columna2{
+	display: grid;
+	grid-template-areas: 
+						 "text-left2 text-left2"
+						 "imagenes2 imagenes2 ";
+}
+
+.text-left2{
+	grid-area: text-left2;
+	
+}
+
+.imagenes2{
+	grid-area: imagenes2;
+	text-align: center;
+}
+
+.columna3{
+	display: grid;
+	grid-template-areas: 
+						 "text-left3 text-left3"
+						 "imagenes3 imagenes3";
+}
+
+.text-left3{
+	grid-area: text-left3;
+	
+}
+
+.imagenes3{
+	grid-area: imagenes3;
+	text-align: center;
+}
+
+.columna4{
+	display: grid;
+	grid-template-areas: 
+						 "text-left4 text-left4"
+						 "imagenes4 imagenes4";
+}
+
+.text-left4{
+	grid-area: text-left4;
+	
+}
+
+.imagenes4{
+	grid-area: imagenes4;
+	text-align: center;
+}
+
+.imagenes1 .imagenes2 .imagenes3 .imagenes4{
+	width: 100%;
+	height: auto;
+}
+
+.imagenes1 img{
+	width: 80%;
+	height: auto;
+}
+
+.imagenes2 img{
+	width: 70%;
+	height: auto;
+}
+
+.imagenes3 img{
+	width: 70%;
+	height: auto;
+}
+
+.imagenes4 img{	
+	width: 70%;
+	height: auto;
+}
+
+		/*-------------------------PRODUCTOS-------------------------------*/
+
+.mainproducto{
 	display: grid;
 	grid-template-areas: 	"fila1	fila2	fila3"
 							"fila4	fila5	fila6"
 							"fila7	fila8	fila9";
 	grid-template-columns: 1fr 1fr 1fr;
 }
+
+
 
 
 .fila1{
@@ -162,7 +332,6 @@ color: green;
 }
 
 
-
 .prueba{
 	margin: 0;
 	padding: 0 15rem;
@@ -170,33 +339,200 @@ color: green;
 
 
 
-#gg{
+
+
+.fila1{
 	display: grid;
-	grid-template-areas: 	"columna1 columna2"
-							"columna3 columna4";
-	grid-template-columns: 1fr 1fr;
+	grid-template-areas: 
+						 "text-left1  "
+						 "imagen1  ";
 }
 
-.columna1{
-	grid-area: columna1;
+.text-left1{
+	grid-area: text-left1;
+	
+}
+.imagenes1{
+	grid-area: imagenes1;
+	text-align: center;
 }
 
-.columna2{
-	grid-area: columna2;
+.fila2{
+	display: grid;
+	grid-template-areas: 
+						 "text-left2  "
+						 "imagen2  ";
 }
 
-.columna3{
-	grid-area: columna3;
+.text-left2{
+	grid-area: text-left2;
+	
 }
 
-.columna4{
-	grid-area: columna4;
+.imagenes2{
+	grid-area: imagenes2;
+	text-align: center;
+}
+
+.fila3{
+	display: grid;
+	grid-template-areas: 
+						 "text-left3  "
+						 "imagen3  ";
+}
+
+.text-left3{
+	grid-area: text-left3;
+	
+}
+
+.imagenes3{
+	grid-area: imagenes3;
+	text-align: center;
+}
+
+.fila4{
+	display: grid;
+	grid-template-areas: 
+						 "text-left4 "
+						 "imagen4 ";
+}
+
+.text-left4{
+	grid-area: text-left4;
+	
+}
+
+.imagenes4{
+	grid-area: imagenes4;
+	text-align: center;
+
+}
+
+.fila5{
+	display: grid;
+	grid-template-areas: 
+						 "text-left5 "
+						 "imagen5 ";
+}
+
+.text-left5{
+	grid-area: text-left5;
+	
+}
+.imagenes1{
+	grid-area: imagenes1;
+	text-align: center;
+}
+
+.fila6{
+	display: grid;
+	grid-template-areas: 
+						 "text-left6 "
+						 "imagen6  ";
+}
+
+.text-left6{
+	grid-area: text-left6;
+	
+}
+
+.imagenes2{
+	grid-area: imagenes2;
+	text-align: center;
+}
+
+.fila7{
+	display: grid;
+	grid-template-areas: 
+						 "text-left7 "
+						 "imagen7 ";
+}
+
+.text-left7{
+	grid-area: text-left7;
+	
+}
+
+.imagenes3{
+	grid-area: imagenes3;
+	text-align: center;
+}
+
+
+
+.imagen1 .imagen2 .imagen3 .imagen4 .imagen5 .imagen6 .imagen7{
+	width: 100%;
+	height: auto;
+}
+
+.imagen1 img{
+	width: 80%;
+	height: auto;
+
+}
+
+.imagen2 img{
+	width: 80%;
+	height: auto;
+}
+
+.imagen3 img{
+	width: 50%;
+	height: auto;
+}
+
+.imagen4 img{	
+	width: 80%;
+	height: auto;
+}
+
+.imagen5 img{
+	width: 80%;
+	height: auto;
+}
+
+.imagen6 img{
+	width: 80%;
+	height: auto;
+}
+
+.imagen7 img{
+	width: 80%;
+	height: auto;
+}
+
+.imagen8 img{	
+	width: 80%;
+	height: auto;
 }
 
 
 
 
+		/*--------------------------------TRABAJOS---------------------------------*/
 
+
+
+
+
+
+
+
+
+
+.trabajos {
+	width: 33.33%;
+	float: left;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+
+.caja{
+	margin: 0;
+	padding: 0 20rem;
+}
 
 .bg-light{
 	color: white;
@@ -204,18 +540,7 @@ color: green;
 
 
 
-
-
-
-/* BEM */
-
-.encabezado__box--white{
-	text-align: center;
-	background-color: white;
-    /* padding */
-    padding: 5px 0;
-
-}
+		/*------------------------------NOSOTROS E CONTACTO----------------------------*/
 
 .encabezado__box--invisible{
 	text-align: center;
@@ -225,85 +550,36 @@ color: green;
 
 }
 
-
-
-
-
-
-/*Box model - width - heigt - margin - padding - border*/
-/*Overflox*/
-/*box-sizing*/
-
-.productos__articulo{
-	width: 90%;
+.formulario{
+	width: 50%;
 	height: auto;
 	margin: 50px auto;
-	border: solid 5px black;
-	overflow: hidden;
-	box-sizing: border-box;
-	background-color: rgba(36, 162, 185, 0.7);
+	text-align: center;
 }
-.productos__articulo2{
-	width: 90%;
-	height: auto ;
-	margin: 50px auto;
-	border: solid 5px black;
-	overflow: hidden;
-	box-sizing: border-box;
-	background-color: rgba(36, 162, 185, 0.7);
-}
-
-	
-
-}
-
-
-
 
 .cajitaf{
-	width: 60%;
+	width: 50%;
 	height: auto;
 	margin: 50px auto;
-	padding: 0 10rem;
+	padding: 40 20rem;
 	overflow: hidden;
-	box-sizing: border-box;
-	
-	
+	box-sizing: border-box;	
 
 }
 
-
-.caja{
-	margin: 0;
-	padding: 0 13rem;
+.cajitaf{
+	display: grid;
+	grid-template-areas: 	"foto1	foto2"  
 }
 
-
-
-
-.centrado{
-	margin: 0;
-	padding: 0 5rem;
+.foto1{
+	grid-area: foto1;
 }
 
-.centrado1{
-	margin: 0;
-	padding: 0 12rem;
+.foto2{
+	grid-area: foto2;
 }
-.centrado2{
-	margin: 0;
-	padding: 0 17rem;
-} 
-
-
-.centrado3{
-	margin: 0;
-	padding: 0 30rem;
-	
-}
-
-
-/*:::::Pie de Pagina*/
+/*--------------------------------Pie de Pagina------------------------------------------*/
 .pie-pagina{
     width: 100%;
     background-color: rgba(36, 162, 185, 0.7);
@@ -365,22 +641,22 @@ color: green;
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap:30px;
-        padding: 35px 0px;
+        padding: 35px 50px;
     }
 }
 
 
 
-
-.trabajos {width: 33.33%;float: left;margin-bottom: 30px;text-align: center;}
-} 
-
-
-/* selector de id */
-
-#index{
-
+		/*----------------------------MEDIA QUERIES---------------------------------*/
+   
+@media screen and (max-width:  500px){
+	.bajas {
+ 	display: grid;
+	grid-template-areas: 	"columna1" 
+							"columna2"
+							"columna3" 
+							"columna4";
+	grid-template-columns: 1fr;
+    
+  }
 }
-
-/* Grids */
-
