@@ -1,0 +1,24 @@
+h1,
+h2,
+h3{
+  font-family: $font;
+}
+
+h1{
+  font-size: $fontxl;
+
+}
+
+h2{
+  font-size: $fontmd;
+}
+
+h3{
+  font-size: $fontsm;
+}
+
+p{
+  font-family: $font;
+  line-height: 1.4em;
+  font-size: 1.1em;
+}
