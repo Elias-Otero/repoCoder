@@ -11,7 +11,7 @@ h2 {
   font-size: 2rem; }
 
 h3 {
-  font-size: 1em; }
+  font-size: 1rem; }
 
 p {
   font-family: "Arvo", sans-serif;
@@ -379,8 +379,8 @@ body {
       width: 50%;
       height: 100%;
       display: flex;
-      justify-content: center;
-      align-items: center; }
+      align-items: center;
+      justify-content: center; }
       .pie-pagina .grupo-1 .box figure img {
         width: 100px; }
     .pie-pagina .grupo-1 .box h2 {

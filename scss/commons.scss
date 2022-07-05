@@ -5,16 +5,16 @@ h3{
 }
 
 h1{
-  font-size: $fontxl;
+  font-size: map-get($size, fontxl);
 
 }
 
 h2{
-  font-size: $fontmd;
+  font-size: map-get($size, fontmd);
 }
 
 h3{
-  font-size: $fontsm;
+  font-size: map-get($size, fontsm);
 }
 
 p{

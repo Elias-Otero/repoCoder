@@ -15,9 +15,7 @@
       figure {
         width: 50%;
         height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex(center ,center);
 
         img {
           width: 100px;
