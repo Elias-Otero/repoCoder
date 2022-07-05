@@ -1,0 +1,11 @@
+@mixin texto($font-size, $line-height, $color){
+	font-size: $font-size;
+	line-height: $line-height;
+	color: $color;
+}
+
+h1{
+	@include texto(3em, 3,2em, blue)
+}
+
+$redes
