@@ -1,0 +1,39 @@
+@media screen and (max-width: 768px) {
+  .mainproducto {
+    display: grid;
+    grid-template-areas: "fila1	 	fila2" "fila3		fila4" "fila5		fila6" "fila7		fila8";
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .maintrabajos {
+    display: grid;
+    grid-template-areas: "poste1	poste2" "poste3	poste4" "poste5	poste6" "poste7 poste7";
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .mainIndex {
+    display: grid;
+    grid-template-areas: "titulo" "columna1" "columna2" "columna3" "columna4";
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .mainproducto {
+    display: grid;
+    grid-template-areas: "fila1" "fila2" "fila3" "fila4" "fila5" "fila6" "fila7" "fila8";
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .maintrabajos {
+    display: grid;
+    grid-template-areas: "poste1" "poste2" "poste3" "poste4" "poste5" "poste6" "poste7" "poste8";
+    grid-template-columns: 1fr;
+  }
+}

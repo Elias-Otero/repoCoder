@@ -1,6 +1,6 @@
 .mainproducto {
   display: grid;
-  grid-template-areas: "fila1	fila2	fila3" "fila4	fila5	fila6" "fila7	fila8	fila9";
+  grid-template-areas: "fila1 fila2 fila3" "fila4 fila5 fila6" "fila7 fila8 fila9";
   grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -54,8 +54,8 @@
   grid-area: text-left1;
 }
 
-.imagenes1 {
-  grid-area: imagenes1;
+.imagen1 {
+  grid-area: imagen1;
   text-align: center;
 }
 
@@ -68,8 +68,8 @@
   grid-area: text-left2;
 }
 
-.imagenes2 {
-  grid-area: imagenes2;
+.imagen2 {
+  grid-area: imagen2;
   text-align: center;
 }
 
@@ -82,8 +82,8 @@
   grid-area: text-left3;
 }
 
-.imagenes3 {
-  grid-area: imagenes3;
+.imagen3 {
+  grid-area: imagen3;
   text-align: center;
 }
 
@@ -96,8 +96,8 @@
   grid-area: text-left4;
 }
 
-.imagenes4 {
-  grid-area: imagenes4;
+.imagen5 {
+  grid-area: imagen5;
   text-align: center;
 }
 
@@ -110,8 +110,8 @@
   grid-area: text-left5;
 }
 
-.imagenes1 {
-  grid-area: imagenes1;
+.imagen6 {
+  grid-area: imagen6;
   text-align: center;
 }
 
@@ -124,8 +124,8 @@
   grid-area: text-left6;
 }
 
-.imagenes2 {
-  grid-area: imagenes2;
+.imagen7 {
+  grid-area: imagen7;
   text-align: center;
 }
 
@@ -138,8 +138,8 @@
   grid-area: text-left7;
 }
 
-.imagenes3 {
-  grid-area: imagenes3;
+.imagen8 {
+  grid-area: imagen8;
   text-align: center;
 }
 

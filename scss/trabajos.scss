@@ -1,13 +1,184 @@
-.trabajos {
-  width: 33.33%;
-  float: left;
-  margin-bottom: 30px;
+.maintrabajos {
+  display: grid;
+  grid-template-areas: "poste1  poste2  poste3" "poste4 poste5  poste6" "poste7 poste8  poste9";
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.poste1 {
+  grid-area: poste1;
+}
+
+.poste2 {
+  grid-area: poste2;
+}
+
+.poste3 {
+  grid-area: poste3;
+}
+
+.poste4 {
+  grid-area: poste4;
+}
+
+.poste5 {
+  grid-area: poste5;
+}
+
+.poste6 {
+  grid-area: poste6;
+}
+
+.poste7 {
+  grid-area: poste7;
+}
+
+.poste8 {
+  grid-area: poste8;
+}
+
+.poste1 {
+  display: grid;
+  grid-template-areas: "text-left1 " "video1";
+}
+
+.text-left1 {
+  grid-area: text-left1;
+}
+
+.video1 {
+  grid-area: video1;
   text-align: center;
 }
 
-.caja {
-  margin: 0;
-  padding: 0 20rem;
+.poste2 {
+  display: grid;
+  grid-template-areas: "text-left2" "video2";
+}
+
+.text-left2 {
+  grid-area: text-left2;
+}
+
+.video2 {
+  grid-area: video2;
+  text-align: center;
+}
+
+.poste3 {
+  display: grid;
+  grid-template-areas: "text-left3" "video3";
+}
+
+.text-left3 {
+  grid-area: text-left3;
+}
+
+.video3 {
+  grid-area: video3;
+  text-align: center;
+}
+
+.poste4 {
+  display: grid;
+  grid-template-areas: "text-left4" "video4";
+}
+
+.text-left4 {
+  grid-area: text-left4;
+}
+
+.video4 {
+  grid-area: video4;
+  text-align: center;
+}
+
+.poste5 {
+  display: grid;
+  grid-template-areas: "text-left5" "video5";
+}
+
+.text-left5 {
+  grid-area: text-left5;
+}
+
+.video5 {
+  grid-area: video5;
+  text-align: center;
+}
+
+.poste6 {
+  display: grid;
+  grid-template-areas: "text-left6" "video6 ";
+}
+
+.text-left6 {
+  grid-area: text-left6;
+}
+
+.video6 {
+  grid-area: video6;
+  text-align: center;
+}
+
+.poste7 {
+  display: grid;
+  grid-template-areas: "text-left7" "video7";
+}
+
+.text-left7 {
+  grid-area: text-left7;
+}
+
+.video7 {
+  grid-area: video7;
+  text-align: center;
+}
+
+.video1 {
+  .video2 .video3 .video4 .video5 .video6 .video7 {
+    width: 100%;
+    height: 150%;
+  }
+
+  iframe {
+    width: 90%;
+    height: 150%;
+  }
+}
+
+.video2 iframe {
+  width: 100%;
+  height: 150%;
+}
+
+.video3 iframe {
+  width: 50%;
+  height: 150%;
+}
+
+.video4 iframe {
+  width: 90%;
+  height: 150%;
+}
+
+.video5 img {
+  width: 90%;
+  height: auto;
+}
+
+.video6 iframe {
+  width: 90%;
+  height: 150%;
+}
+
+.video7 img {
+  width: 90%;
+  height: auto;
+}
+
+.video8 iframe {
+  width: 90%;
+  height: 90%;
 }
 
 .bg-light {
