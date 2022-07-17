@@ -21,6 +21,7 @@
   box-sizing: border-box;
   display: grid;
   grid-template-areas: "foto1	foto2";
+  grid-template-columns: 1fr 1fr;
 }
 
 .foto1 {

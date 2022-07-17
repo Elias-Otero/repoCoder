@@ -488,7 +488,8 @@ body {
   overflow: hidden;
   box-sizing: border-box;
   display: grid;
-  grid-template-areas: "foto1	foto2"; }
+  grid-template-areas: "foto1	foto2";
+  grid-template-columns: 1fr 1fr; }
 
 .foto1 {
   grid-area: foto1; }
@@ -561,6 +562,12 @@ body {
     display: grid;
     grid-template-areas: "poste1	poste2" "poste3	poste4" "poste5	poste6" "poste7 poste7";
     grid-template-columns: 1fr 1fr; } }
+
+@media screen and (max-width: 768px) {
+  .cajitaf {
+    display: grid;
+    grid-template-areas: "foto1" "foto2";
+    grid-template-columns: 1fr; } }
 
 @media screen and (max-width: 500px) {
   .mainIndex {
