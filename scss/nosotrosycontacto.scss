@@ -13,22 +13,60 @@
 }
 
 .cajitaf {
-  width: 50%;
-  height: auto;
-  margin: 50px auto;
-  padding: 40 20rem;
-  overflow: hidden;
-  box-sizing: border-box;
   display: grid;
   grid-template-areas: "foto1	foto2";
   grid-template-columns: 1fr 1fr;
 }
 
+.rienda1 {
+  grid-area: foto1;
+}
+
+.rienda2 {
+  grid-area: foto2;
+}
+
+.rienda1 {
+  display: grid;
+  grid-template-areas: "text-left1  " "foto1  ";
+}
+
+.text-left1 {
+  grid-area: text-left1;
+}
+
 .foto1 {
   grid-area: foto1;
+  text-align: center;
+}
+
+.rienda2 {
+  display: grid;
+  grid-template-areas: "text-left2  " "foto2  ";
+}
+
+.text-left2 {
+  grid-area: text-left2;
 }
 
 .foto2 {
   grid-area: foto2;
+  text-align: center;
 }
 
+.foto1 {
+  .foto2{
+    width: 100%;
+    height: auto;
+  }
+
+  img {
+    width: 30%;
+    height: auto;
+  }
+}
+
+.foto2 img {
+  width: 30%;
+  height: auto;
+}

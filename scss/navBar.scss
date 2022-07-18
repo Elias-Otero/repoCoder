@@ -213,12 +213,22 @@ body {
   }
 
   img {
-    width: 80%;
+    width: 90%;
     height: auto;
   }
 }
 
-.imagenes2 img, .imagenes3 img, .imagenes4 img {
+.imagenes2 img {
   width: 70%;
   height: auto;
-}
+ } 
+
+.imagenes3 img { 
+  width: 58%;
+  height: auto;
+  }
+
+.imagenes4 img { 
+  width: 70%;
+  height: auto;
+  }

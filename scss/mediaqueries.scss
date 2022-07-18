@@ -1,4 +1,12 @@
 @media screen and (max-width: 768px) {
+.cajitaf {
+  display: grid;
+  grid-template-areas:"foto1" "foto2";
+  grid-template-columns: 1fr;
+  }
+} 
+
+@media screen and (max-width: 768px) {
   .mainproducto {
     display: grid;
     grid-template-areas: "fila1	 	fila2" "fila3		fila4" "fila5		fila6" "fila7		fila8";
@@ -14,14 +22,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-.cajitaf {
-  display: grid;
-  grid-template-areas:"foto1" "foto2";
-  grid-template-columns: 1fr;
-  }
-}  
-
+ 
 @media screen and (max-width: 500px) {
   .mainIndex {
     display: grid;
